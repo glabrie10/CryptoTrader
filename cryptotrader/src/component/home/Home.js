@@ -5,11 +5,10 @@ import './Home.css'
 export default class Home extends Component {
   render () {
     return (
-
-
-        <img className="image" src={Image} alt="crypto"/>
-
-
+        <div id="home">
+        <h1>Learn Crypto without risk</h1>
+        <a href="#" class="button">Register/Login</a>
+        </div>
     )
   }
 }
